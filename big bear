@@ -88,7 +88,7 @@
 <body>
 <div class="container">
     <div class="logo">
-        <img src="images/.png" alt="Big Bear Barbell Club Logo">
+        <img src="images/logo.png" alt="Big Bear Barbell Club Logo">
     </div>
 
     <div class="section hero">
