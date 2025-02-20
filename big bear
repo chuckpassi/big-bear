@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Bear Barbell Club | Strength Training in Frankfort, IL</title>
-    <!-- Modern Google Font -->
+    <title>Train With Chuck | Big Bear Barbell Club</title>
+    <meta name="description" content="Strength training with Chuck at Big Bear Barbell Club. Personalized coaching for total wellness, mobility, and strength gains.">
+    <meta name="keywords" content="Strength Training, Powerlifting, Personal Training, Big Bear Barbell Club, Fitness Coach">
+    <meta name="author" content="Chuck | Big Bear Barbell Club">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -24,7 +27,7 @@
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -41,48 +44,24 @@
             font-size: 3rem;
             font-weight: 800;
             margin: 0;
-            line-height: 1.2;
         }
 
-        .hero p {
-            font-size: 1.25rem;
+        .hero h2 {
+            font-size: 1.5rem;
             opacity: 0.9;
             margin-top: 1rem;
         }
 
         h2 {
-            font-size: 2rem;
-            font-weight: 600;
-            margin-top: 3rem;
             color: var(--primary);
-        }
-
-        h3 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-top: 2rem;
         }
 
         .card {
             background: white;
             padding: 2rem;
             border-radius: 1rem;
-            margin: 2rem 0;
+            margin-bottom: 2rem;
             box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .feature {
-            padding: 1.5rem;
-            background: white;
-            border-radius: 0.5rem;
-            box-shadow: 0 2px 4px -1px rgb(0 0 0 / 0.1);
         }
 
         .cta {
@@ -91,13 +70,13 @@
             padding: 1rem 2rem;
             border: none;
             border-radius: 0.5rem;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             cursor: pointer;
             transition: all 0.3s ease;
             display: block;
             width: 100%;
             max-width: 300px;
-            margin: 3rem auto;
+            margin: 2rem auto;
         }
 
         .cta:hover {
@@ -119,69 +98,48 @@
         }
 
         li {
-            margin: 1rem 0;
-            padding-left: 1.5rem;
-            position: relative;
-        }
-
-        li::before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: var(--primary);
+            margin: 0.5rem 0;
         }
     </style>
 </head>
 <body>
     <div class="hero">
-        <h1>Big Bear Barbell Club</h1>
-        <p>Where Strength Meets Community in Frankfort, IL</p>
+        <h1>Train With Chuck at Big Bear Barbell Club</h1>
+        <h2>Where Strength Training Meets Total Wellness</h2>
     </div>
 
     <div class="container">
         <div class="card">
-            <h2>Expert Strength Training</h2>
-            <p>At Big Bear Barbell Club, we focus on building sustainable strength through expert coaching and personalized programming. Whether you're new to fitness or recovering from an injury, our approach evolves with your progress.</p>
+            <h2>Your Path to Sustainable Strength</h2>
+            <p>As your dedicated strength coach at Big Bear Barbell Club, I provide more than just workouts – I offer a comprehensive approach to strength and health tailored to your needs.</p>
         </div>
 
-        <h2>Our Training Philosophy</h2>
-        <div class="features">
-            <div class="feature">
-                <h3>Personalized Approach</h3>
-                <ul>
-                    <li>Custom programming</li>
-                    <li>Form-focused training</li>
-                    <li>Progress tracking</li>
-                </ul>
-            </div>
-            <div class="feature">
-                <h3>24/7 Access</h3>
-                <ul>
-                    <li>Flexible scheduling</li>
-                    <li>Premium equipment</li>
-                    <li>Spacious facility</li>
-                </ul>
-            </div>
+        <h2>Why Train With Chuck?</h2>
+        <div class="card">
+            <h3>Beyond Traditional Fitness</h3>
+            <ul>
+                <li>Functional movement patterns for real-life strength</li>
+                <li>Customized programming that evolves with you</li>
+                <li>Balance between strength gains and overall wellness</li>
+            </ul>
         </div>
 
-        <h2>Training Programs</h2>
-        <div class="features">
-            <div class="feature">
-                <h3>Personal Training</h3>
-                <ul>
-                    <li>One-on-one attention</li>
-                    <li>Custom workouts</li>
-                    <li>Regular assessments</li>
-                </ul>
-            </div>
-            <div class="feature">
-                <h3>Group Training</h3>
-                <ul>
-                    <li>Community atmosphere</li>
-                    <li>Scaled workouts</li>
-                    <li>Motivating environment</li>
-                </ul>
-            </div>
+        <h2>Training Options</h2>
+        <div class="card">
+            <h3>Personal Training</h3>
+            <ul>
+                <li>One-on-one coaching tailored to your goals</li>
+                <li>Flexible scheduling</li>
+                <li>Technique refinement & form correction</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Small Group Training</h3>
+            <ul>
+                <li>Community-driven strength development</li>
+                <li>Motivating environment with like-minded individuals</li>
+                <li>Scaled workouts for all levels</li>
+            </ul>
         </div>
 
         <button class="cta" onclick="window.location.href='tel:+1234567890'">
@@ -189,11 +147,9 @@
         </button>
 
         <div class="contact">
-            <h2>Visit Us</h2>
-            <p>Big Bear Barbell Club<br>
-            Frankfort, IL</p>
-            <p>Follow us on Instagram for daily inspiration<br>
-            <strong>@bigbearbarbellclub</strong></p>
+            <h2>Contact & Location</h2>
+            <p>Big Bear Barbell Club<br>Frankfort, IL</p>
+            <p>Follow me on Instagram: <strong>@bigbearbarbellclub</strong></p>
         </div>
     </div>
 </body>
