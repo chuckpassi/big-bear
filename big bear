@@ -20,6 +20,14 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            max-width: 300px;
+            height: auto;
+        }
         h1, h2, h3 {
             color: #333;
         }
@@ -79,6 +87,10 @@
 </head>
 <body>
 <div class="container">
+    <div class="logo">
+        <img src="images/logo.jpg" alt="Big Bear Barbell Club Logo">
+    </div>
+
     <div class="section hero">
         <h1>Train With Chuck at Big Bear Barbell Club</h1>
         <h2>Where Strength Training Meets Total Wellness</h2>
