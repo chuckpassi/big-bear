@@ -20,6 +20,14 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            max-width: 300px;
+            height: auto;
+        }
         h1, h2, h3 {
             color: #333;
         }
@@ -75,37 +83,16 @@
             padding: 20px;
             border-radius: 5px;
         }
-        .hero-image img {
-            width: 100%;
-            max-height: 500px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-        .training-image img {
-            width: 100%;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        .facility-images {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .facility-images img {
-            width: 100%;
-            border-radius: 10px;
-        }
     </style>
 </head>
 <body>
 <div class="container">
+    <div class="logo">
+        <img src="images/logo.jpg" alt="Big Bear Barbell Club Logo">
+    </div>
+
     <div class="section hero">
         <h1>Train With Chuck at Big Bear Barbell Club</h1>
-        <div class="hero-image">
-            <img src="images/gym-hero.jpg" alt="Big Bear Barbell Club Gym">
-        </div>
         <h2>Where Strength Training Meets Total Wellness</h2>
     </div>
 
@@ -142,10 +129,6 @@
 
     <div class="section training">
         <h2>Training Approaches</h2>
-        
-        <div class="training-image">
-            <img src="images/coaching.jpg" alt="Personal Training at Big Bear">
-        </div>
 
         <h3>Personal Training</h3>
         <ul>
@@ -203,11 +186,6 @@
             <li>Space for proper movement and technique work</li>
             <li>Professional coaching environment</li>
         </ul>
-        
-        <div class="facility-images">
-            <img src="images/equipment.jpg" alt="Gym Equipment">
-            <img src="images/workout-area.jpg" alt="Workout Area">
-        </div>
     </div>
 
     <div class="section cta">
