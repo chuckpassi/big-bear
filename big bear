@@ -26,10 +26,28 @@
             color: var(--dark);
         }
 
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--dark);
+            padding: 1rem 2rem;
+            color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        .navbar img {
+            height: 50px;
+        }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 2rem;
+            margin-top: 5rem;
         }
 
         .hero {
@@ -127,6 +145,11 @@
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <img src="https://your-image-url.com/logo.png" alt="Big Bear Barbell Club Logo">
+        <h2>Big Bear Barbell Club</h2>
+    </div>
+
     <div class="hero">
         <h1>Train With Chuck at Big Bear Barbell Club</h1>
         <h2>Where Strength Training Meets Total Wellness</h2>
@@ -135,12 +158,12 @@
     <div class="container">
         <div class="card">
             <h2>Your Path to Sustainable Strength</h2>
-            <p>As your dedicated strength coach at Big Bear Barbell Club, I provide more than just workouts – I offer a comprehensive approach to strength and health tailored to your needs.</p>
+            <p>As a Fitness Coach and Personal Trainer, I focus on a holistic approach that integrates strength training, mobility, recovery, and overall wellness. At Big Bear Barbell Club, my goal is to help you achieve sustainable health, whether you're improving performance, reducing stress, or building functional strength for everyday life.</p>
         </div>
 
-        <h2>Why Train With Chuck?</h2>
+        <h2>Why Train With Chuck? A Holistic Wellness Approach</h2>
         <div class="card">
-            <h3>Beyond Traditional Fitness</h3>
+            <h3>Comprehensive Strength & Wellness Coaching</h3>
             <ul>
                 <li>Functional movement patterns for real-life strength</li>
                 <li>Customized programming that evolves with you</li>
@@ -148,32 +171,34 @@
             </ul>
         </div>
 
-        <h2>Training Options</h2>
+        <h2>Training Options for Strength & Well-Being</h2>
         <div class="card">
-            <h3>Personal Training</h3>
+            <h3>One-on-One Coaching for Strength & Wellness</h3>
             <ul>
-                <li>One-on-one coaching tailored to your goals</li>
-                <li>Flexible scheduling</li>
-                <li>Technique refinement & form correction</li>
+                <li>Customized training plans that integrate strength, mobility, and recovery</li>
+                <li>Flexible scheduling to fit your lifestyle and wellness needs</li>
+                <li>Emphasis on proper movement patterns, injury prevention, and longevity</li>
             </ul>
         </div>
         <div class="card">
-            <h3>Small Group Training</h3>
+            <h3>Community-Based Strength & Wellness Training</h3>
             <ul>
-                <li>Community-driven strength development</li>
-                <li>Motivating environment with like-minded individuals</li>
-                <li>Scaled workouts for all levels</li>
+                <li>Supportive group setting that fosters accountability and motivation</li>
+                <li>Workouts designed for strength, endurance, and overall well-being</li>
+                <li>Scalable exercises to accommodate all fitness levels and wellness goals</li>
             </ul>
         </div>
 
-        <a href="tel:+1234567890" class="cta">Schedule Your Free Consultation</a>
+        <!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/AcZssZ1vvojHwMl-QMroX8cG9j8ObwSafeHkCY3BPfQ=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
 
         <div class="contact">
-            <h2>Contact & Location</h2>
-            <p>Big Bear Barbell Club<br>Frankfort, IL</p>
+            <h2>Contact & Booking Options</h2>
+            <p>Training available <strong>in-person</strong> at Big Bear Barbell Club, Frankfort, IL.</p>
+            <p>For remote clients, <strong>Facetime/Zoom consultations</strong> are available for online/hybrid clients or in-person clients needing additional guidance.</p>
             <p>Follow me on Instagram: <strong>@bigbearbarbellclub</strong></p>
         </div>
     </div>
 </body>
 </html>
-
